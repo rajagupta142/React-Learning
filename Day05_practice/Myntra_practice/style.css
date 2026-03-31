@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.button,.pro{
+    padding: 5px;
+    border: none;
+    margin-right: 10px;
+    background-color: #ccc;
+    font-size: 15px;
+    height: 30px;
+    text-align: center;
+}
+.image{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    height:50px;
+    width:50px;
+    object-fit:cover;
+}
+.options{
+    /* position: relative;
+    top: 20px;
+    left: 15px; */
+    padding-top: 20px;
+}
+.head{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.searchbar{
+    position: relative;
+    top: 20px;
+    height: 30px;
+    width: 300px;
+}
+
+.profile{
+    /* position: relative;
+    top:20px; */
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+.cards{
+   border:2px solid black;
+   background-color: rgba(48, 139, 62, 0.3);
+   text-align:center;
+   padding:3px;
+   overflow:hidden;
+   box-shadow:2px 2px 8px rgba(0,0,0,0.2);
+   color: black;
+}
+.middle{
+    background-color: #ccc;
+    display:flex;
+    gap:10px;
+    flex-Wrap:wrap;
+    justify-Content:center;
+}

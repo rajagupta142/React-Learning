@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: rgb(37, 193, 193);
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    padding-top: 50px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+    padding: 30px 5px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.profile{
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+.inp{
+    margin-left: 200px;
+    height: 15px;
+    width: 100px;
+    padding: 10px;
+}
+
+button{
+    height: 30px;
+    width: 70px;
+    padding: 5px;
+    margin-left: 4px;
+}

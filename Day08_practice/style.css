@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.second{
+    background-color: rgb(133, 87, 32);
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}

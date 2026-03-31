@@ -1,0 +1,28 @@
+#body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    background-color: white;
+    text-align: center;
+    width: 400px;
+    border-radius: 4px;
+}
+.but{
+    display: flex;
+    margin-right: 5px;
+    align-items: center;
+    background-color:white;
+    width: 800px;
+}
+.but button{
+    flex: 1;
+}
