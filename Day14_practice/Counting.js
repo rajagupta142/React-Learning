@@ -33,3 +33,7 @@ export default function Counting(){
 //         </>
 //     )
 // }
+
+//useSelector()------> to access the count( declared in Slice and exported to store 
+// ---so, basically--->It reads data from the Redux store.) 
+// i need to use useSelector
